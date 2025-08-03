@@ -1,3 +1,22 @@
+# Multi-Theme React Tailwind App
+
+A multi-theme React web application using Tailwind CSS, Context API, and Vite.
+
+## 🚀 Live Demo
+
+[Deployment Link Here]
+
+## 🏗️ Folder Structure
+
+- `/src/components`: UI components (Header, Sidebar, ProductCard)
+- `/src/context`: Theme context logic
+- `/src/pages`: Home, About, and Contact pages
+- `/src/main.css`: Tailwind CSS and theme variables
+- `/src/main.tsx`: Main entry point
+
+## 📦 Setup
+
+1. Clone repository:
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
