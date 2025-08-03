@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html[data-theme="theme1"] {
+  --bg: #fafafa;
+  --text: #171717;
+  --font: 'Inter', sans-serif;
+}
+
+html[data-theme="theme2"] {
+  --bg: #121212;
+  --text: #fafafa;
+  --font: 'Merriweather', serif;
+}
+
+html[data-theme="theme3"] {
+  --bg: #fffbe7;
+  --text: #1a69b5;
+  --font: 'Pacifico', cursive;
+}
+
+body {
+  @apply transition-colors duration-500 min-h-screen;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+}
+
